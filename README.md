@@ -3,8 +3,7 @@ This is the demo extension to represent new safari web extension support
 
 1. Clone repo
 2. Open project with Xcode
-3.Before you run the this project in Xcode:
-  To develop without a certificate, each time Safari is launched, you must tell it to load unsigned extensions using the Develop menu:
+3. To develop without a certificate, each time Safari is launched, you must tell it to load unsigned extensions using the Develop menu:
   Open Safari and choose Safari > Preferences.
   Select the Advanced tab, then select the “Show Develop menu in menu bar” checkbox.
   Choose Develop > Allow Unsigned Extensions. The Allow Unsigned Extensions setting is reset when a user quits Safari; you must set it again the next time Safari is launched.
