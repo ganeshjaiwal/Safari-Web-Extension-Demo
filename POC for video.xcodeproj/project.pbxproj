@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E8579E24CAFE6100C28ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E8579D24CAFE6100C28ABD /* AppDelegate.swift */; };
+		12E857A124CAFE6100C28ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E8579F24CAFE6100C28ABD /* Main.storyboard */; };
+		12E857A324CAFE6100C28ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E857A224CAFE6100C28ABD /* ViewController.swift */; };
+		12E857A524CAFE6800C28ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E857A424CAFE6800C28ABD /* Assets.xcassets */; };
+		12E857B024CAFE6900C28ABD /* POC_for_videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E857AF24CAFE6900C28ABD /* POC_for_videoTests.swift */; };
+		12E857BB24CAFE6900C28ABD /* POC_for_videoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E857BA24CAFE6900C28ABD /* POC_for_videoUITests.swift */; };
+		12E857C224CAFE6900C28ABD /* POC for video Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12E857C124CAFE6900C28ABD /* POC for video Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12E857C724CAFE6900C28ABD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E857C624CAFE6900C28ABD /* Cocoa.framework */; };
+		12E857CA24CAFE6900C28ABD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E857C924CAFE6900C28ABD /* SafariWebExtensionHandler.swift */; };
+		12E857CD24CAFE6900C28ABD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 12E857CC24CAFE6900C28ABD /* _locales */; };
+		12E857CF24CAFE6900C28ABD /* images in Resources */ = {isa = PBXBuildFile; fileRef = 12E857CE24CAFE6900C28ABD /* images */; };
+		12E857D124CAFE6900C28ABD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 12E857D024CAFE6900C28ABD /* manifest.json */; };
+		12E857D324CAFE6900C28ABD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E857D224CAFE6900C28ABD /* background.js */; };
+		12E857D524CAFE6900C28ABD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E857D424CAFE6900C28ABD /* content.js */; };
+		12E857D724CAFE6900C28ABD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 12E857D624CAFE6900C28ABD /* popup.html */; };
+		12E857D924CAFE6900C28ABD /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 12E857D824CAFE6900C28ABD /* popup.css */; };
+		12E857DB24CAFE6900C28ABD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 12E857DA24CAFE6900C28ABD /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E857AC24CAFE6900C28ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E8579124CAFE6100C28ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E8579824CAFE6100C28ABD;
+			remoteInfo = "POC for video";
+		};
+		12E857B724CAFE6900C28ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E8579124CAFE6100C28ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E8579824CAFE6100C28ABD;
+			remoteInfo = "POC for video";
+		};
+		12E857C324CAFE6900C28ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E8579124CAFE6100C28ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E857C024CAFE6900C28ABD;
+			remoteInfo = "POC for video Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12E857E324CAFE6900C28ABD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12E857C224CAFE6900C28ABD /* POC for video Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12E8579924CAFE6100C28ABD /* POC for video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC for video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E8579C24CAFE6100C28ABD /* POC_for_video.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POC_for_video.entitlements; sourceTree = "<group>"; };
+		12E8579D24CAFE6100C28ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E857A024CAFE6100C28ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E857A224CAFE6100C28ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12E857A424CAFE6800C28ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E857A624CAFE6800C28ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E857AB24CAFE6900C28ABD /* POC for videoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC for videoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E857AF24CAFE6900C28ABD /* POC_for_videoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_for_videoTests.swift; sourceTree = "<group>"; };
+		12E857B124CAFE6900C28ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E857B624CAFE6900C28ABD /* POC for videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC for videoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E857BA24CAFE6900C28ABD /* POC_for_videoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_for_videoUITests.swift; sourceTree = "<group>"; };
+		12E857BC24CAFE6900C28ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E857C124CAFE6900C28ABD /* POC for video Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "POC for video Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E857C624CAFE6900C28ABD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		12E857C924CAFE6900C28ABD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		12E857CC24CAFE6900C28ABD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		12E857CE24CAFE6900C28ABD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		12E857D024CAFE6900C28ABD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		12E857D224CAFE6900C28ABD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		12E857D424CAFE6900C28ABD /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		12E857D624CAFE6900C28ABD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		12E857D824CAFE6900C28ABD /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		12E857DA24CAFE6900C28ABD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		12E857DC24CAFE6900C28ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E857DD24CAFE6900C28ABD /* POC_for_video_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POC_for_video_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E8579624CAFE6100C28ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857A824CAFE6900C28ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857B324CAFE6900C28ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857BE24CAFE6900C28ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857C724CAFE6900C28ABD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E8579024CAFE6100C28ABD = {
+			isa = PBXGroup;
+			children = (
+				12E8579B24CAFE6100C28ABD /* POC for video */,
+				12E857AE24CAFE6900C28ABD /* POC for videoTests */,
+				12E857B924CAFE6900C28ABD /* POC for videoUITests */,
+				12E857C824CAFE6900C28ABD /* POC for video Extension */,
+				12E857C524CAFE6900C28ABD /* Frameworks */,
+				12E8579A24CAFE6100C28ABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E8579A24CAFE6100C28ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E8579924CAFE6100C28ABD /* POC for video.app */,
+				12E857AB24CAFE6900C28ABD /* POC for videoTests.xctest */,
+				12E857B624CAFE6900C28ABD /* POC for videoUITests.xctest */,
+				12E857C124CAFE6900C28ABD /* POC for video Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E8579B24CAFE6100C28ABD /* POC for video */ = {
+			isa = PBXGroup;
+			children = (
+				12E8579C24CAFE6100C28ABD /* POC_for_video.entitlements */,
+				12E8579D24CAFE6100C28ABD /* AppDelegate.swift */,
+				12E8579F24CAFE6100C28ABD /* Main.storyboard */,
+				12E857A224CAFE6100C28ABD /* ViewController.swift */,
+				12E857A424CAFE6800C28ABD /* Assets.xcassets */,
+				12E857A624CAFE6800C28ABD /* Info.plist */,
+			);
+			path = "POC for video";
+			sourceTree = "<group>";
+		};
+		12E857AE24CAFE6900C28ABD /* POC for videoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12E857AF24CAFE6900C28ABD /* POC_for_videoTests.swift */,
+				12E857B124CAFE6900C28ABD /* Info.plist */,
+			);
+			path = "POC for videoTests";
+			sourceTree = "<group>";
+		};
+		12E857B924CAFE6900C28ABD /* POC for videoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12E857BA24CAFE6900C28ABD /* POC_for_videoUITests.swift */,
+				12E857BC24CAFE6900C28ABD /* Info.plist */,
+			);
+			path = "POC for videoUITests";
+			sourceTree = "<group>";
+		};
+		12E857C524CAFE6900C28ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E857C624CAFE6900C28ABD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12E857C824CAFE6900C28ABD /* POC for video Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12E857C924CAFE6900C28ABD /* SafariWebExtensionHandler.swift */,
+				12E857DC24CAFE6900C28ABD /* Info.plist */,
+				12E857DD24CAFE6900C28ABD /* POC_for_video_Extension.entitlements */,
+				12E857CB24CAFE6900C28ABD /* Resources */,
+			);
+			path = "POC for video Extension";
+			sourceTree = "<group>";
+		};
+		12E857CB24CAFE6900C28ABD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E857CC24CAFE6900C28ABD /* _locales */,
+				12E857CE24CAFE6900C28ABD /* images */,
+				12E857D024CAFE6900C28ABD /* manifest.json */,
+				12E857D224CAFE6900C28ABD /* background.js */,
+				12E857D424CAFE6900C28ABD /* content.js */,
+				12E857D624CAFE6900C28ABD /* popup.html */,
+				12E857D824CAFE6900C28ABD /* popup.css */,
+				12E857DA24CAFE6900C28ABD /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E8579824CAFE6100C28ABD /* POC for video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E857E424CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for video" */;
+			buildPhases = (
+				12E8579524CAFE6100C28ABD /* Sources */,
+				12E8579624CAFE6100C28ABD /* Frameworks */,
+				12E8579724CAFE6100C28ABD /* Resources */,
+				12E857E324CAFE6900C28ABD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E857C424CAFE6900C28ABD /* PBXTargetDependency */,
+			);
+			name = "POC for video";
+			productName = "POC for video";
+			productReference = 12E8579924CAFE6100C28ABD /* POC for video.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E857AA24CAFE6900C28ABD /* POC for videoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E857E724CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for videoTests" */;
+			buildPhases = (
+				12E857A724CAFE6900C28ABD /* Sources */,
+				12E857A824CAFE6900C28ABD /* Frameworks */,
+				12E857A924CAFE6900C28ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E857AD24CAFE6900C28ABD /* PBXTargetDependency */,
+			);
+			name = "POC for videoTests";
+			productName = "POC for videoTests";
+			productReference = 12E857AB24CAFE6900C28ABD /* POC for videoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12E857B524CAFE6900C28ABD /* POC for videoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E857EA24CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for videoUITests" */;
+			buildPhases = (
+				12E857B224CAFE6900C28ABD /* Sources */,
+				12E857B324CAFE6900C28ABD /* Frameworks */,
+				12E857B424CAFE6900C28ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E857B824CAFE6900C28ABD /* PBXTargetDependency */,
+			);
+			name = "POC for videoUITests";
+			productName = "POC for videoUITests";
+			productReference = 12E857B624CAFE6900C28ABD /* POC for videoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		12E857C024CAFE6900C28ABD /* POC for video Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E857E024CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for video Extension" */;
+			buildPhases = (
+				12E857BD24CAFE6900C28ABD /* Sources */,
+				12E857BE24CAFE6900C28ABD /* Frameworks */,
+				12E857BF24CAFE6900C28ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC for video Extension";
+			productName = "POC for video Extension";
+			productReference = 12E857C124CAFE6900C28ABD /* POC for video Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E8579124CAFE6100C28ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					12E8579824CAFE6100C28ABD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					12E857AA24CAFE6900C28ABD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 12E8579824CAFE6100C28ABD;
+					};
+					12E857B524CAFE6900C28ABD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 12E8579824CAFE6100C28ABD;
+					};
+					12E857C024CAFE6900C28ABD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 12E8579424CAFE6100C28ABD /* Build configuration list for PBXProject "POC for video" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E8579024CAFE6100C28ABD;
+			productRefGroup = 12E8579A24CAFE6100C28ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E8579824CAFE6100C28ABD /* POC for video */,
+				12E857AA24CAFE6900C28ABD /* POC for videoTests */,
+				12E857B524CAFE6900C28ABD /* POC for videoUITests */,
+				12E857C024CAFE6900C28ABD /* POC for video Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E8579724CAFE6100C28ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857A524CAFE6800C28ABD /* Assets.xcassets in Resources */,
+				12E857A124CAFE6100C28ABD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857A924CAFE6900C28ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857B424CAFE6900C28ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857BF24CAFE6900C28ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857D324CAFE6900C28ABD /* background.js in Resources */,
+				12E857D924CAFE6900C28ABD /* popup.css in Resources */,
+				12E857D724CAFE6900C28ABD /* popup.html in Resources */,
+				12E857CF24CAFE6900C28ABD /* images in Resources */,
+				12E857D124CAFE6900C28ABD /* manifest.json in Resources */,
+				12E857CD24CAFE6900C28ABD /* _locales in Resources */,
+				12E857D524CAFE6900C28ABD /* content.js in Resources */,
+				12E857DB24CAFE6900C28ABD /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E8579524CAFE6100C28ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857A324CAFE6100C28ABD /* ViewController.swift in Sources */,
+				12E8579E24CAFE6100C28ABD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857A724CAFE6900C28ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857B024CAFE6900C28ABD /* POC_for_videoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857B224CAFE6900C28ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857BB24CAFE6900C28ABD /* POC_for_videoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E857BD24CAFE6900C28ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E857CA24CAFE6900C28ABD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E857AD24CAFE6900C28ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E8579824CAFE6100C28ABD /* POC for video */;
+			targetProxy = 12E857AC24CAFE6900C28ABD /* PBXContainerItemProxy */;
+		};
+		12E857B824CAFE6900C28ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E8579824CAFE6100C28ABD /* POC for video */;
+			targetProxy = 12E857B724CAFE6900C28ABD /* PBXContainerItemProxy */;
+		};
+		12E857C424CAFE6900C28ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E857C024CAFE6900C28ABD /* POC for video Extension */;
+			targetProxy = 12E857C324CAFE6900C28ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12E8579F24CAFE6100C28ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E857A024CAFE6100C28ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E857DE24CAFE6900C28ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12E857DF24CAFE6900C28ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		12E857E124CAFE6900C28ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "POC for video Extension/POC_for_video_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POC for video Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-video-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12E857E224CAFE6900C28ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "POC for video Extension/POC_for_video_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POC for video Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-video-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		12E857E524CAFE6900C28ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "POC for video/POC_for_video.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		12E857E624CAFE6900C28ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "POC for video/POC_for_video.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		12E857E824CAFE6900C28ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for videoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-videoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC for video.app/Contents/MacOS/POC for video";
+			};
+			name = Debug;
+		};
+		12E857E924CAFE6900C28ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for videoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-videoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC for video.app/Contents/MacOS/POC for video";
+			};
+			name = Release;
+		};
+		12E857EB24CAFE6900C28ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for videoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-videoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "POC for video";
+			};
+			name = Debug;
+		};
+		12E857EC24CAFE6900C28ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "POC for videoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ganesh.POC-for-videoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "POC for video";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E8579424CAFE6100C28ABD /* Build configuration list for PBXProject "POC for video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E857DE24CAFE6900C28ABD /* Debug */,
+				12E857DF24CAFE6900C28ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E857E024CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for video Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E857E124CAFE6900C28ABD /* Debug */,
+				12E857E224CAFE6900C28ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E857E424CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E857E524CAFE6900C28ABD /* Debug */,
+				12E857E624CAFE6900C28ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E857E724CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for videoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E857E824CAFE6900C28ABD /* Debug */,
+				12E857E924CAFE6900C28ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E857EA24CAFE6900C28ABD /* Build configuration list for PBXNativeTarget "POC for videoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E857EB24CAFE6900C28ABD /* Debug */,
+				12E857EC24CAFE6900C28ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E8579124CAFE6100C28ABD /* Project object */;
+}
